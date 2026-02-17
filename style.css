@@ -1,26 +1,37 @@
 body {
+  background-color: #f8faff;
   font-family: Arial, sans-serif;
-  background-color: #b7e1ec;
   margin: 0;
   padding: 0;
 }
 
 .container {
   max-width: 800px;
-  margin: 50px auto;
+  margin: 40px auto;
   background: white;
-  padding: 30px;
-  border-radius: 10px;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 h1 {
   color: #2c3e50;
 }
 
-h2, h3 {
-  color: #34495e;
+h2 {
+  color: #335d92;
+  margin-top: 30px;
 }
 
-hr {
-  margin: 25px 0;
+ul {
+  margin-left: 20px;
+}
+
+a {
+  color: #2c3e50;
+  text-decoration: none;
 }
